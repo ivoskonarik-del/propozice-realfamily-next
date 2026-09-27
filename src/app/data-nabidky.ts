@@ -55,7 +55,7 @@ export const NABIDKY: Nabidka[] = [
     nazev: "Prodej rodinného domu 134 m², pozemek 305 m²",
     adresa: "Na kopci, Velký Týnec",
     mesto: "Olomouc – Velký Týnec",
-    cena: "5 890 000 Kč",
+    cena: "5 650 000 Kč",
     druh: "Dům",
     operace: "prodej",
     plocha: "134 m²",
