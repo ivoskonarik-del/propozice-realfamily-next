@@ -30,6 +30,27 @@ export type Nabidka = {
 
 export const NABIDKY: Nabidka[] = [
   {
+    kod: "837357644",
+    nazev: "Pronájem bytu 2+1 58 m²",
+    adresa: "Hraniční, Olomouc",
+    mesto: "Olomouc – obec Olomouc",
+    cena: "12 500 Kč/měsíc",
+    druh: "Byt",
+    operace: "pronájem",
+    plocha: "58 m²",
+    energie: "Úsporná",
+    popis: "Nabízíme k pronájmu panelový byt 2+1 v Olomouci, Hraniční ulice. Byt se nachází v 5.patře revitalizovaného panelového domu s výtahem, je v osobním vlastnictví, s užitnou plochu 58 m². Byt má všechny pokoje samostatné, neprůchozí, koupelna se sprch.koutem, wc samostaně a komora vybavená regály. Kuchyně je prostorná, vybavená linkou, plynovým sporákem s digestoří a potravinovou skříní. Pokoje jsou bez vybavení, pouze nová stropní svítidla. U jednoho pokoje je lodžie orientovná na JV. V chodbě se nacházejí starší vestavěné skříně, poskytující velký úložný prostor.\nByt je ve velmi dobrém stavu,nyní prošel částečnou rekonstrukcí, nové dveře, vinylové podlahy, parkety v pokojích po renovaci, nové výmalby, vše čistě uklizeno. K bytu náleží sklepní kóje umístěná v suterénu domu.\nPo dohodě je možno byt dovybavit spotřebiči (pračka, lednička, mikrovlnka...)\nNájemné čini 12 500 Kč + služby 3845 Kč Kč + elektřinu a plyn (pouze vaření) si hradí nájemce sám. Provize za zprostředkování pronájmu je stanovena na\n12 500 Kč,jistota činí 25 000 Kč a lze ji složit ve dvou splátkách. Byt je k dispozici od 1.11.2026.\nVelmi dobrá lokalita s veškerou občanskou vybaveností v místě a výbornou dostupností do všech částí města.\nMožné i studenti. Pouze nekuřáci, zájemci bez exekucí a jiných dluhů a bez zvířat.\nMajitelé jsou ochotni se dohodnout na příp.úpravě bytu či doplnění vybavení (lednička, pračka...).\nPokud Vás byt zaujal, neváhejte nám napsat nebo zavolat a domluvit se na prohlídce (možno i víkendy a svátky).",
+    fotekCelkem: 11,
+    zdroj: "https://www.sreality.cz/detail/pronajem/byt/2+1/olomouc-olomouc-hranicni/837357644",
+    fotky: [
+      { src: "/images/nabidky/837357644-01.jpg", sirka: 1200, vyska: 900 },
+      { src: "/images/nabidky/837357644-02.jpg", sirka: 900, vyska: 1200 },
+      { src: "/images/nabidky/837357644-03.jpg", sirka: 900, vyska: 1200 },
+      { src: "/images/nabidky/837357644-04.jpg", sirka: 900, vyska: 1200 },
+      { src: "/images/nabidky/837357644-05.jpg", sirka: 900, vyska: 1200 },
+    ],
+  },
+  {
     kod: "1187438668",
     nazev: "Prodej bytu 3+1 107 m²",
     adresa: "Rumunská, Olomouc - Neředín",
