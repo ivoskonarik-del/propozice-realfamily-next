@@ -76,7 +76,7 @@ export const NABIDKY: Nabidka[] = [
     nazev: "Pronájem kanceláře 20 m²",
     adresa: "Holická, Olomouc",
     mesto: "Olomouc – obec Olomouc",
-    cena: "53 000 Kč",
+    cena: "7 000 Kč/měsíc (350 Kč/m²)",
     druh: "Komerční prostor",
     operace: "pronájem",
     plocha: "20 m²",
