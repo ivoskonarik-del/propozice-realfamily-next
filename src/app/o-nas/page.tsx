@@ -20,7 +20,7 @@ export default function ONas() {
           maly
           nadtitul={`Na trhu od roku ${FIRMA.odRoku}`}
           nadpis="Rodinná kancelář, která zná svůj kraj"
-          lead="Dvacet let v Olomouci a okolí. Většina našich klientů k nám přišla na doporučení."
+          lead="Více než dvacet let v Olomouci a okolí. Většina našich klientů k nám přišla na doporučení."
           foto="/images/olomouc-pruh.jpg"
           alt="Panorama Olomouce"
           sirka={1600}
@@ -41,7 +41,7 @@ export default function ONas() {
             </p>
             <p style={{ marginTop: "var(--sp-5)", color: "var(--seda)", fontSize: 18 }}>
               {nb(
-                "Vážíme si toho, když nám někdo svěří koupi nebo prodej bydlení. Záleží nám na tom, aby to pro něj byla bezstarostná a pohodlná záležitost — ne půlrok nervů."
+                "Vážíme si toho, když nám někdo svěří koupi nebo prodej bydlení. Záleží nám na tom, aby to pro něj byla bezstarostná, pohodlná a hlavně cenově přijatelná záležitost — ne půlrok nervů."
               )}
             </p>
           </div>
@@ -62,10 +62,10 @@ export default function ONas() {
           <div className="obal">
             <div className="hlava-sekce">
               <span className="mono nadtitul">Kdo se vám bude věnovat</span>
-              <h2 id="tym-h">Dva lidé, ne call centrum</h2>
+              <h2 id="tym-h">Jedna makléřka, ne call centrum</h2>
               <p>
                 {nb(
-                  "U nás mluvíte pořád s tím samým člověkem — od prvního telefonátu až po předání klíčů."
+                  "Celou dobu jednáte jen se mnou — od prvního telefonátu až po předání klíčů."
                 )}
               </p>
             </div>
@@ -84,7 +84,7 @@ export default function ONas() {
           <div className="obal">
             <div className="hlava-sekce">
               <span className="mono nadtitul">Kde nás najdete</span>
-              <h2>Dvě kanceláře, jeden tým</h2>
+              <h2>Dvě kanceláře, jedna makléřka</h2>
             </div>
             <div className="mrizka-3">
               {KANCELARE.map((k) => (

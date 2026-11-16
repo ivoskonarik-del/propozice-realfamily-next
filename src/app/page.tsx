@@ -16,7 +16,7 @@ export default function Domu() {
       <main id="obsah">
         <Hero
           nadtitul="Olomouc · Hranice"
-          nadpis="Realitní kancelář, která u toho zůstane až do předání klíčů"
+          nadpis="Realitní kancelář, která u práce zůstane až do předání klíčů"
           lead="Od roku 2004 a přes tisíc uzavřených smluv. Prodej, pronájem, právní servis i správa nájemních domů — všechno pod jednou střechou."
           foto="/images/olomouc-hero.jpg"
           alt="Pohled na Horní náměstí v Olomouci s radniční věží"
@@ -79,10 +79,10 @@ export default function Domu() {
           <div className="obal">
             <div className="hlava-sekce">
               <span className="mono nadtitul">Co pro vás uděláme</span>
-              <h2 id="sluzby-h">Od prohlídky po vklad do katastru</h2>
+              <h2 id="sluzby-h">Od prohlídky po předání</h2>
               <p>
                 {nb(
-                  "Nejsme jen zprostředkovatel. Smlouvy nám zajišťuje advokátní kancelář, posudky znalci, geometrické plány geodeti. Klient jedná s námi, ne s pěti firmami."
+                  "Nejsme jen zprostředkovatelé. Veškeré smlouvy a právní agendu nám zajišťuje smluvní advokátní kancelář, znalecké posudky a průkazy energetické náročnosti znalci z oboru, geometrické plány geodeti, hypotéky a úvěry finanční poradci. Zajistíme i přepisy energií, úklid a stěhování."
                 )}
               </p>
             </div>

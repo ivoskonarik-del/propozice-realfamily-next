@@ -37,7 +37,6 @@ export const KANCELARE = [
 
 export const MAKLERI = [
   { jmeno: "Hana Trnečková Bryksová", role: "majitelka kanceláře" },
-  { jmeno: "Ing. Jitka Kubešová", role: "realitní makléřka" },
 ];
 
 /* Jedenáct služeb ze stávajícího webu, doslova. Pořadí je změněné tak,
@@ -76,7 +75,7 @@ export const SLUZBY = [
   {
     klic: "pozustalost",
     nazev: "Vyřešení pozůstalosti",
-    text: "Prodej nemovitosti z dědictví zařídíme za vás. Obraťte se na nás s vyřešením pozůstalosti a zajistíme tržní odhad i prodej vaší nemovitosti.",
+    text: "I v těžké životní situaci rádi pomůžeme. Vypracujeme pro notáře posudek k dědictví po zemřelém a zajistíme případný prodej zděděné nemovitosti.",
   },
   {
     klic: "financovani",
@@ -89,9 +88,9 @@ export const SLUZBY = [
     text: "Zaměření skutečného stavu stavby nebo rozparcelování pozemku nechte na nás. Zjistíme všechny inženýrské sítě a vyhotovíme geometrický plán.",
   },
   {
-    klic: "oddluzeni",
-    nazev: "Oddlužení nemovitosti",
-    text: "Obrátit se na nás můžete i s exekučním vypořádáním. Svěřte nám jednání s věřiteli a vaši nemovitost oddlužíme raz dva.",
+    klic: "sprava",
+    nazev: "Správa nájemních bytů",
+    text: "Nabízíme pomoc se správou nájemních bytů a domů: vybírání nájmů a plateb za energie, rozúčtování energií pro bytové jednotky, zajištění úklidu a další.",
   },
   {
     klic: "penb",

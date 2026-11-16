@@ -119,7 +119,7 @@ export default function Kontakt() {
         <section className="sekce sekce--papir2" aria-labelledby="tym-h">
           <div className="obal">
             <div className="hlava-sekce">
-              <span className="mono nadtitul">Tým</span>
+              <span className="mono nadtitul">Makléřka</span>
               <h2 id="tym-h">Kdo vám zvedne telefon</h2>
             </div>
             <div className="mrizka-3">

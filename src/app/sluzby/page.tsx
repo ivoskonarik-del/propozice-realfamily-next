@@ -8,7 +8,7 @@ import { FIRMA, PARTNERI, SLUZBY, nb } from "../data";
 export const metadata: Metadata = {
   title: "Služby",
   description:
-    "Prodej a pronájem nemovitostí, právní servis, ocenění, geodetické služby, financování, PENB i vyřešení pozůstalosti. Vše pod jednou střechou.",
+    "Prodej a pronájem nemovitostí, právní servis, ocenění, geodetické služby, financování, PENB, pozůstalosti i správa nájemních bytů. Vše pod jednou střechou.",
 };
 
 export default function Sluzby() {
@@ -68,7 +68,7 @@ export default function Sluzby() {
             <h2>Nevíte, kde začít?</h2>
             <p style={{ marginTop: "var(--sp-4)", color: "rgba(255,255,255,.85)", fontSize: 18 }}>
               {nb(
-                "Zavolejte a řekněte, co řešíte. Poradíme i v případě, že z toho žádný obchod nebude."
+                "Zavolejte a řekněte, co potřebujete vyřešit. Poradíme zdarma i v případě, že žádný obchod neuzavřeme."
               )}
             </p>
             <div className="akce" style={{ marginTop: "var(--sp-6)", justifyContent: "center" }}>
