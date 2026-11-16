@@ -6,7 +6,7 @@
  *
  * POZOR na `src`: je tu ÚPLNÁ cesta včetně přípony, ne jen název souboru.
  * Deploy přepisuje cesty v JS jen tehdy, když jsou celé v jednom řetězci.
- * Kdyby se cesta skládala v komponentě (`/propozice-realfamily-next/images/…/${x}`), zůstal by v JS
+ * Kdyby se cesta skládala v komponentě (`/images/…/${x}`), zůstal by v JS
  * holý prefix, deploy by ho minul a po hydrataci by fotky zmizely.
  */
 
