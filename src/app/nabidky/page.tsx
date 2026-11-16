@@ -22,7 +22,7 @@ export default function Nabidky() {
           nadtitul={`${NABIDKY.length} nemovitostí v nabídce`}
           nadpis="Nabídka nemovitostí"
           lead="Výpis se plní z naší nabídky automaticky. Co je tady, je opravdu volné."
-          foto="/images/olomouc-pruh.jpg"
+          foto="/propozice-realfamily-next/images/olomouc-pruh.jpg"
           alt="Střechy Olomouce z výšky"
           sirka={1600}
           vyska={600}

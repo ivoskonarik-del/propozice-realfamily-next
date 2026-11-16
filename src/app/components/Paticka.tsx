@@ -9,7 +9,7 @@ export default function Paticka() {
           <div>
             <img
               className="paticka-logo"
-              src="/images/logo-realfamily.svg"
+              src="/propozice-realfamily-next/images/logo-realfamily.svg"
               alt="REAL family"
               width={99}
               height={46}

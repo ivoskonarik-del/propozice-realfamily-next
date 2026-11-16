@@ -21,7 +21,7 @@ export default function ONas() {
           nadtitul={`Na trhu od roku ${FIRMA.odRoku}`}
           nadpis="Rodinná kancelář, která zná svůj kraj"
           lead="Více než dvacet let v Olomouci a okolí. Většina našich klientů k nám přišla na doporučení."
-          foto="/images/olomouc-pruh.jpg"
+          foto="/propozice-realfamily-next/images/olomouc-pruh.jpg"
           alt="Panorama Olomouce"
           sirka={1600}
           vyska={600}

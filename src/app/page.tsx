@@ -18,7 +18,7 @@ export default function Domu() {
           nadtitul="Olomouc · Hranice"
           nadpis="Realitní kancelář, která u práce zůstane až do předání klíčů"
           lead="Od roku 2004 a přes tisíc uzavřených smluv. Prodej, pronájem, právní servis i správa nájemních domů — všechno pod jednou střechou."
-          foto="/images/olomouc-hero.jpg"
+          foto="/propozice-realfamily-next/images/olomouc-hero.jpg"
           alt="Pohled na Horní náměstí v Olomouci s radniční věží"
           sirka={1920}
           vyska={1280}

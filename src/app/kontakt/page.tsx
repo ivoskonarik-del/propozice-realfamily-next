@@ -21,7 +21,7 @@ export default function Kontakt() {
           nadtitul="Rádi se s vámi spojíme"
           nadpis="Kontakt"
           lead="Zavolejte kdykoli. Když to nezvedneme, jsme na prohlídce — ozveme se zpátky."
-          foto="/images/olomouc-pruh.jpg"
+          foto="/propozice-realfamily-next/images/olomouc-pruh.jpg"
           alt="Olomouc, pohled na město"
           sirka={1600}
           vyska={600}

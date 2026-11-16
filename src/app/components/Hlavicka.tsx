@@ -21,7 +21,7 @@ export default function Hlavicka({ aktivni }: { aktivni?: string }) {
       <div className="obal hlavicka-in">
         <Link className="znacka" href="/" aria-label="REAL family — domů">
           {/* Logo je vektor od klientky, jen zmenšený. */}
-          <img src="/images/logo-realfamily.svg" alt="REAL family" width={86} height={40} />
+          <img src="/propozice-realfamily-next/images/logo-realfamily.svg" alt="REAL family" width={86} height={40} />
         </Link>
 
         <button

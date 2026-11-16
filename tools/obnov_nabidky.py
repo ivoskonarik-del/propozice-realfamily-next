@@ -82,6 +82,20 @@ def _klic_nemovitosti(l) -> str:
     ))
 
 
+# basePath z next.config.ts. GitHub Action builduje bez deploy skriptu, který
+# by cesty v out/ dopatchoval, takže prefix musí být přímo v datech.
+def _base_path() -> str:
+    cfg = Path(__file__).resolve().parent.parent / "next.config.ts"
+    try:
+        m = re.search(r"basePath:\s*['\"]([^'\"]*)['\"]", cfg.read_text(encoding="utf-8"))
+        return m.group(1) if m else ""
+    except OSError:
+        return ""
+
+
+BASE_PATH = _base_path()
+
+
 def stahni_fotky(record, cil: Path, kod: str, client: HttpClient) -> list[dict]:
     """Uloží prvních pár fotek a vrátí jejich rozměry pro `data-nabidky.ts`."""
     from PIL import Image as PILImage
@@ -106,7 +120,7 @@ def stahni_fotky(record, cil: Path, kod: str, client: HttpClient) -> list[dict]:
         except Exception as exc:                      # jedna fotka navíc nestojí za pád
             log.warning("fotka %s se nepodařila (%s)", img.url[:60], exc)
             continue
-        out.append({"src": f"/images/nabidky/{soubor.name}", "sirka": sirka, "vyska": vyska})
+        out.append({"src": f"{BASE_PATH}/images/nabidky/{soubor.name}", "sirka": sirka, "vyska": vyska})
     return out
 
 

@@ -29,7 +29,7 @@ export default function Sprava() {
           nadtitul={SPRAVA.mesta.join(" · ")}
           nadpis="Správa nájemních bytových domů"
           lead="Druhá věc, kterou děláme stejně dlouho jako realitní zprostředkování — jen o ní tolik nemluvíme."
-          foto="/images/olomouc-pruh.jpg"
+          foto="/propozice-realfamily-next/images/olomouc-pruh.jpg"
           alt="Obytné domy v Olomouci"
           sirka={1600}
           vyska={600}

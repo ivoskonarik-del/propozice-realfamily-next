@@ -21,7 +21,7 @@ export default function Sluzby() {
           nadtitul="Jedenáct služeb"
           nadpis="Všechno kolem nemovitosti na jednom místě"
           lead="Od prvního odhadu ceny po vklad do katastru. Co neděláme sami, zajistíme přes prověřené partnery."
-          foto="/images/olomouc-pruh.jpg"
+          foto="/propozice-realfamily-next/images/olomouc-pruh.jpg"
           alt="Historické centrum Olomouce"
           sirka={1600}
           vyska={600}

@@ -24,14 +24,14 @@ export const KANCELARE = [
     adresa: "Jihoslovanská 491/33",
     castObce: "Olomouc-Povel",
     mapa: "https://mapy.cz/zakladni?q=Jihoslovansk%C3%A1%20491%2F33%20Olomouc",
-    mapka: "/images/mapa-olomouc.jpg",
+    mapka: "/propozice-realfamily-next/images/mapa-olomouc.jpg",
   },
   {
     mesto: "Hranice",
     adresa: "Cementářské sídliště 1234",
     castObce: "Hranice",
     mapa: "https://mapy.cz/zakladni?q=Cement%C3%A1%C5%99sk%C3%A9%20s%C3%ADdli%C5%A1t%C4%9B%201234%20Hranice",
-    mapka: "/images/mapa-hranice.jpg",
+    mapka: "/propozice-realfamily-next/images/mapa-hranice.jpg",
   },
 ];
 

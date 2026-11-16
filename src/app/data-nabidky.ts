@@ -6,7 +6,7 @@
  *
  * POZOR na `src`: je tu ÚPLNÁ cesta včetně přípony, ne jen název souboru.
  * Deploy přepisuje cesty v JS jen tehdy, když jsou celé v jednom řetězci.
- * Kdyby se cesta skládala v komponentě (`/images/…/${x}`), zůstal by v JS
+ * Kdyby se cesta skládala v komponentě (`/propozice-realfamily-next/images/…/${x}`), zůstal by v JS
  * holý prefix, deploy by ho minul a po hydrataci by fotky zmizely.
  */
 
@@ -43,11 +43,11 @@ export const NABIDKY: Nabidka[] = [
     fotekCelkem: 20,
     zdroj: "https://www.sreality.cz/detail/prodej/dum/rodinny/velky-tynec-velky-tynec-na-kopci/816238668",
     fotky: [
-      { src: "/images/nabidky/816238668-01.jpg", sirka: 1200, vyska: 900 },
-      { src: "/images/nabidky/816238668-02.jpg", sirka: 1200, vyska: 900 },
-      { src: "/images/nabidky/816238668-03.jpg", sirka: 1200, vyska: 900 },
-      { src: "/images/nabidky/816238668-04.jpg", sirka: 900, vyska: 1200 },
-      { src: "/images/nabidky/816238668-05.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/816238668-01.jpg", sirka: 1200, vyska: 900 },
+      { src: "/propozice-realfamily-next/images/nabidky/816238668-02.jpg", sirka: 1200, vyska: 900 },
+      { src: "/propozice-realfamily-next/images/nabidky/816238668-03.jpg", sirka: 1200, vyska: 900 },
+      { src: "/propozice-realfamily-next/images/nabidky/816238668-04.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/816238668-05.jpg", sirka: 900, vyska: 1200 },
     ],
   },
   {
@@ -64,11 +64,11 @@ export const NABIDKY: Nabidka[] = [
     fotekCelkem: 6,
     zdroj: "https://www.sreality.cz/detail/pronajem/byt/1+1/olomouc-povel-nesporova/3770875980",
     fotky: [
-      { src: "/images/nabidky/3770875980-01.jpg", sirka: 640, vyska: 480 },
-      { src: "/images/nabidky/3770875980-02.jpg", sirka: 480, vyska: 640 },
-      { src: "/images/nabidky/3770875980-03.jpg", sirka: 480, vyska: 640 },
-      { src: "/images/nabidky/3770875980-04.jpg", sirka: 480, vyska: 640 },
-      { src: "/images/nabidky/3770875980-05.jpg", sirka: 480, vyska: 640 },
+      { src: "/propozice-realfamily-next/images/nabidky/3770875980-01.jpg", sirka: 640, vyska: 480 },
+      { src: "/propozice-realfamily-next/images/nabidky/3770875980-02.jpg", sirka: 480, vyska: 640 },
+      { src: "/propozice-realfamily-next/images/nabidky/3770875980-03.jpg", sirka: 480, vyska: 640 },
+      { src: "/propozice-realfamily-next/images/nabidky/3770875980-04.jpg", sirka: 480, vyska: 640 },
+      { src: "/propozice-realfamily-next/images/nabidky/3770875980-05.jpg", sirka: 480, vyska: 640 },
     ],
   },
   {
@@ -85,11 +85,11 @@ export const NABIDKY: Nabidka[] = [
     fotekCelkem: 11,
     zdroj: "https://www.sreality.cz/detail/pronajem/byt/2+1/olomouc-olomouc-hranicni/837357644",
     fotky: [
-      { src: "/images/nabidky/837357644-01.jpg", sirka: 1200, vyska: 900 },
-      { src: "/images/nabidky/837357644-02.jpg", sirka: 900, vyska: 1200 },
-      { src: "/images/nabidky/837357644-03.jpg", sirka: 900, vyska: 1200 },
-      { src: "/images/nabidky/837357644-04.jpg", sirka: 900, vyska: 1200 },
-      { src: "/images/nabidky/837357644-05.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/837357644-01.jpg", sirka: 1200, vyska: 900 },
+      { src: "/propozice-realfamily-next/images/nabidky/837357644-02.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/837357644-03.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/837357644-04.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/837357644-05.jpg", sirka: 900, vyska: 1200 },
     ],
   },
   {
@@ -106,11 +106,11 @@ export const NABIDKY: Nabidka[] = [
     fotekCelkem: 7,
     zdroj: "https://www.sreality.cz/detail/pronajem/komercni/kancelare/olomouc-olomouc-holicka/2228940876",
     fotky: [
-      { src: "/images/nabidky/2228940876-01.jpg", sirka: 1200, vyska: 900 },
-      { src: "/images/nabidky/2228940876-02.jpg", sirka: 1200, vyska: 673 },
-      { src: "/images/nabidky/2228940876-03.jpg", sirka: 1200, vyska: 673 },
-      { src: "/images/nabidky/2228940876-04.jpg", sirka: 754, vyska: 445 },
-      { src: "/images/nabidky/2228940876-05.jpg", sirka: 1200, vyska: 673 },
+      { src: "/propozice-realfamily-next/images/nabidky/2228940876-01.jpg", sirka: 1200, vyska: 900 },
+      { src: "/propozice-realfamily-next/images/nabidky/2228940876-02.jpg", sirka: 1200, vyska: 673 },
+      { src: "/propozice-realfamily-next/images/nabidky/2228940876-03.jpg", sirka: 1200, vyska: 673 },
+      { src: "/propozice-realfamily-next/images/nabidky/2228940876-04.jpg", sirka: 754, vyska: 445 },
+      { src: "/propozice-realfamily-next/images/nabidky/2228940876-05.jpg", sirka: 1200, vyska: 673 },
     ],
   },
 ];
