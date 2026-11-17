@@ -52,6 +52,11 @@ export default function Kontakt() {
 
               <p className="mono" style={{ marginTop: "var(--sp-6)", color: "var(--seda)" }}>
                 IČO {FIRMA.ico}
+                <br />
+                Sídlo firmy: {FIRMA.sidlo}
+              </p>
+              <p style={{ marginTop: "var(--sp-2)", fontSize: 15, color: "var(--seda)" }}>
+                Ostatní adresy jsou naše kanceláře.
               </p>
             </div>
 

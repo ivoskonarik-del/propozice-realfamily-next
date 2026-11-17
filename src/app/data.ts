@@ -12,6 +12,7 @@ export const FIRMA = {
   telefonHref: "tel:+420775101597",
   email: "hana.bryksova@seznam.cz",
   ico: "62345222",
+  sidlo: "Blažíčkova 63/20, Bystrovany",
   odRoku: 2004,
   smluv: 1000,
   sreality:
@@ -21,9 +22,9 @@ export const FIRMA = {
 export const KANCELARE = [
   {
     mesto: "Olomouc",
-    adresa: "Jihoslovanská 491/33",
-    castObce: "Olomouc-Povel",
-    mapa: "https://mapy.cz/zakladni?q=Jihoslovansk%C3%A1%20491%2F33%20Olomouc",
+    adresa: "Hybešova 200/6",
+    castObce: "Olomouc-Hodolany",
+    mapa: "https://mapy.cz/zakladni?q=Hybe%C5%A1ova%20200%2F6%20Olomouc",
     mapka: "/propozice-realfamily-next/images/mapa-olomouc.jpg",
   },
   {
@@ -88,14 +89,14 @@ export const SLUZBY = [
     text: "Zaměření skutečného stavu stavby nebo rozparcelování pozemku nechte na nás. Zjistíme všechny inženýrské sítě a vyhotovíme geometrický plán.",
   },
   {
-    klic: "sprava",
-    nazev: "Správa nájemních bytů",
-    text: "Nabízíme pomoc se správou nájemních bytů a domů: vybírání nájmů a plateb za energie, rozúčtování energií pro bytové jednotky, zajištění úklidu a další.",
-  },
-  {
     klic: "penb",
     nazev: "Průkaz energetické náročnosti",
     text: "Vaši nemovitost opatříme energetickým průkazem se zařazením do tříd A až G. Nedělejte si starosti s PENB a nechte to na nás.",
+  },
+  {
+    klic: "sprava",
+    nazev: "Správa nájemních bytů",
+    text: "Nabízíme pomoc se správou nájemních bytů a domů: vybírání nájmů a plateb za energie, rozúčtování energií pro bytové jednotky, zajištění úklidu a další.",
   },
 ];
 

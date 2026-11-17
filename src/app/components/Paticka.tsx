@@ -20,6 +20,11 @@ export default function Paticka() {
             </p>
             <p className="mono" style={{ marginTop: "var(--sp-4)", opacity: 0.6 }}>
               IČO {FIRMA.ico}
+              <br />
+              Sídlo firmy: {FIRMA.sidlo}
+            </p>
+            <p style={{ maxWidth: "34ch", fontSize: 14, marginTop: "var(--sp-3)", opacity: 0.75 }}>
+              Ochrana osobních údajů našich klientů je pro nás samozřejmostí.
             </p>
           </div>
 

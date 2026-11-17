@@ -17,7 +17,7 @@ export default function Domu() {
         <Hero
           nadtitul="Olomouc · Hranice"
           nadpis="Realitní kancelář, která u práce zůstane až do předání klíčů"
-          lead="Od roku 2004 a přes tisíc uzavřených smluv. Prodej, pronájem, právní servis i správa nájemních domů — všechno pod jednou střechou."
+          lead="Od roku 2004 a přes tisíc uzavřených smluv. Prodej, pronájem, právní servis, financování i správa nájemních domů — všechno pod jednou střechou."
           foto="/propozice-realfamily-next/images/olomouc-hero.jpg"
           alt="Pohled na Horní náměstí v Olomouci s radniční věží"
           sirka={1920}
@@ -51,7 +51,7 @@ export default function Domu() {
           <div className="obal">
             <div className="hlava-sekce">
               <span className="mono nadtitul">Aktuální nabídka</span>
-              <h2 id="nabidka-h">Nemovitosti, které teď nabízíme</h2>
+              <h2 id="nabidka-h">Nemovitosti, které právě nabízíme</h2>
               <p>
                 {nb(
                   "Výpis se plní automaticky z naší nabídky — když přibude nová nemovitost nebo se některá prodá, web se srovná sám. Nic se nepřepisuje ručně."
@@ -82,7 +82,7 @@ export default function Domu() {
               <h2 id="sluzby-h">Od prohlídky po předání</h2>
               <p>
                 {nb(
-                  "Nejsme jen zprostředkovatelé. Veškeré smlouvy a právní agendu nám zajišťuje smluvní advokátní kancelář, znalecké posudky a průkazy energetické náročnosti znalci z oboru, geometrické plány geodeti, hypotéky a úvěry finanční poradci. Zajistíme i přepisy energií, úklid a stěhování."
+                  "Nejsme jen zprostředkovatelé. Veškeré smlouvy a právní agendu nám zajišťuje smluvní advokátní kancelář, znalecké posudky a průkazy energetické náročnosti znalci z oboru, geometrické plány geodeti, hypotéky a úvěry finanční poradci. Zajistíme i přepisy energií, úklid a stěhování. Ochrana osobních údajů našich klientů je pro nás samozřejmostí."
                 )}
               </p>
             </div>
