@@ -131,7 +131,7 @@ export const SPRAVA = {
 export const PARTNERI = [
   {
     nazev: "Advokátní kancelář",
-    text: "Kupní i nájemní smlouvy, úschova kupní ceny a vklad do katastru nemovitostí. Žádnou smlouvu neuzavíráme bez právní konzultace.",
+    text: "Kupní i nájemní smlouvy, úschova kupní ceny a vklad do katastru nemovitostí. Zajistíme i ostatní právní náležitosti, například smlouvy darovací a směnné, dělení majetku a plné moci k zastupování, včetně právního zastoupení renomovaným advokátem. Žádnou smlouvu neuzavíráme bez právní konzultace.",
   },
   {
     nazev: "Geodeti",
@@ -139,7 +139,7 @@ export const PARTNERI = [
   },
   {
     nazev: "Znalci ve stavebnictví",
-    text: "Znalecké posudky a odhady tržní ceny, posouzení stavu objektu před koupí.",
+    text: "Znalecké posudky a odhady tržní ceny, posouzení stavu objektu před koupí a vyhotovení průkazů energetické náročnosti budovy (PENB).",
   },
   {
     nazev: "Finanční poradci",

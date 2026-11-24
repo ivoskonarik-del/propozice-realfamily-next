@@ -135,11 +135,6 @@ export default function Kontakt() {
                 </article>
               ))}
             </div>
-            <p style={{ marginTop: "var(--sp-7)", color: "var(--seda)", maxWidth: "62ch" }}>
-              {nb(
-                "Nabízíme i správu nájemních bytových domů v Olomouci, Hranicích a Olšovci. Pokud vlastníte nájemní dům a chcete se o něj přestat starat, ozvěte se."
-              )}
-            </p>
           </div>
         </section>
       </main>
