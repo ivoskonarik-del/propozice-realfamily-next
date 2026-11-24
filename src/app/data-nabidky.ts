@@ -30,6 +30,27 @@ export type Nabidka = {
 
 export const NABIDKY: Nabidka[] = [
   {
+    kod: "717516876",
+    nazev: "Pronájem bytu 3+1 63 m²",
+    adresa: "Hamerská, Olomouc - Holice",
+    mesto: "Olomouc – Holice",
+    cena: "13 500 Kč/měsíc",
+    druh: "Byt",
+    operace: "pronájem",
+    plocha: "63 m²",
+    energie: "Úsporná, č. 78/2013 Sb.",
+    popis: "Pronájem bytu 3+1 se šatnou, ul. Hamerská, Olomouc. Panelový byt o rozloze 63m2 se nachází v 1.patře domu (zvýšené přízemí). Byt je po kompletní rekonstrukci, 2 pokoje jsou neprůchozí (ložnice, dětský), podlahy koberec, v obýváku plovoučka, kuchyně a koupelna dlažba, chodba vinyl, nové dveře, vymalovaný bílou barvou, čistě uklizený. Koupelna společná s wc, sprchový kout. Byt se pronajímá kompletně zařízený nábytkem, spotřebiče (lednička,mikrovlnka, linka je připravena na myčku), vybavený televizí, nádobím, záclonami, závěsy, ve všech místnostech zůstává osvětlení. K bytu náleží sklepní koje.Je připravený k okamžitému bydlení. Volný od 1.1.2027. Pouze nekuřáci, zájemci bez zvířat a bez dluhů. U domu dětské hřiště, parkoviště, zastávka autobusu MHD směr Holice a Olomouc. Měsíční náklady do 3000,- Kč vč.elektřiny a plynu (vaření). Prohlídky po dohodě. Skládá se jistota ve výši dvou nájmů, možno složit ve dvou splátkách, provize RK jeden nájem.",
+    fotekCelkem: 11,
+    zdroj: "https://www.sreality.cz/detail/pronajem/byt/3+1/olomouc-holice-hamerska/717516876",
+    fotky: [
+      { src: "/propozice-realfamily-next/images/nabidky/717516876-01.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/717516876-02.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/717516876-03.jpg", sirka: 900, vyska: 1200 },
+      { src: "/propozice-realfamily-next/images/nabidky/717516876-04.jpg", sirka: 1200, vyska: 900 },
+      { src: "/propozice-realfamily-next/images/nabidky/717516876-05.jpg", sirka: 1200, vyska: 900 },
+    ],
+  },
+  {
     kod: "837357644",
     nazev: "Pronájem bytu 2+1 58 m²",
     adresa: "Hraniční, Olomouc",
