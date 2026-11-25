@@ -3,6 +3,7 @@ import Hlavicka from "../components/Hlavicka";
 import Paticka from "../components/Paticka";
 import Hero from "../components/Hero";
 import Vypis from "./Vypis";
+import { pocetNemovitosti } from "./pocet";
 import { nb } from "../data";
 import { NABIDKY } from "../data-nabidky";
 
@@ -19,7 +20,7 @@ export default function Nabidky() {
       <main id="obsah">
         <Hero
           maly
-          nadtitul={`${NABIDKY.length} nemovitostí v nabídce`}
+          nadtitul={`${pocetNemovitosti(NABIDKY.length)} v nabídce`}
           nadpis="Nabídka nemovitostí"
           lead="Výpis se plní z naší nabídky automaticky. Co je tady, je opravdu volné."
           foto="/propozice-realfamily-next/images/olomouc-pruh.jpg"
